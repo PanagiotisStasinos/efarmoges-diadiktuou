@@ -1,0 +1,181 @@
+
+
+body {  
+    min-width: 10%;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid rgb(92, 89, 89);
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+/* MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+/* MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+/* MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+
+
+.singupForm .form-group.input-group{
+    margin-bottom: 1.6em;
+}
+
+.singupForm .input-group-text{ /* Boxes of the icons */
+    color:black;      /* Debug */
+    width: 2.5em; 
+}
+
+#formClass{
+    height: 35.5em;
+    position: relative;
+}
+
+/* Tow parts of the form */
+.formLeft{
+    position: absolute;
+    left:12em;
+    width: 20em;
+    /* margin-right: 10em; */
+}
+.formRight{
+    position: absolute;
+    right: 12em;
+    width: 20em;
+
+}
+
+#sumbitButton{
+    position: absolute;
+    width: 20em;
+    top: 10.1em;
+}
+
+
+            /* Footer */
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+
+/**** Resizing *****/
+@media only screen and (min-width: 991px) and (max-width:1199px){
+
+    #containerForm{
+        height: 40em;   
+    }
+    #formClass{
+        position: relative;
+        height: 32em;
+        /* width: 10px; */
+    }
+    .formLeft{
+        position: absolute;
+        left:8em;
+        width: 20em;
+    } 
+    .formRight{
+        position: absolute;
+        /* text-align: center; */
+        display: block;
+        left: 30em;
+        top:6.25em;
+        width: 20em;
+    }
+    #sumbitButton{
+        position: absolute;
+        width: 20em;
+        top: 10.1em;
+    }
+}
+
+/* Debug: check min width when its in the limit!!! */
+
+@media only screen and (min-width: 767px) and (max-width:991px){
+
+    #containerForm{
+        height: 50em;   
+    }
+    #formClass{
+        position: relative;
+        height: 48em;
+        /* width: 10px; */
+    }
+    .formLeft{
+        position: absolute;
+        left:11em;
+        width: 20em;
+    } 
+    .formRight{
+        position: absolute;
+        /* text-align: center; */
+        display: block;
+        left: 11em;
+        top:32em;
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    #containerForm{
+        height: 50em;        
+    }
+
+    #formClass{
+        position: relative;
+        height: 48em;
+        /* width: 10px; */
+    }
+
+    .formLeft{
+        position: absolute;
+        left:6em;
+        width: 20em;
+    }
+    
+    .formRight{
+        position: absolute;
+        /* text-align: center; */
+        display: block;
+        left: 6em;
+        top:32em;
+        width: 20em;
+    }
+}

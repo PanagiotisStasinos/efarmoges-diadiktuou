@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sign up</title>
+
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet"> !!!!!!!!!!!!!!!!!!!!!!!!!!!! Different verison from other pages!!! -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- TESTINGGGGGGG -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> -->
+
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/index.css" rel="stylesheet"> -->
+    <link href="css/signup.css" rel="stylesheet">
+
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>  
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img class="ebaypic" src="img/ebay-icon2.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+        
+            <!-- Search bar  -->
+            <!-- <div class="form-group mb-0 ml-0" style="width: 40em; margin-right: -1em;">
+                    <input id="exampleFormControlInput5" type="email" placeholder="What're you searching for?" class="form-control form-control-underlined border-success">
+                    <div class="input-group-append border-0">
+                        <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search"></i></button>
+                    </div>
+                </div> -->
+            <div class="input-group mb-1 border rounded-pill p-1 bg-white" style="width: 60em;">
+                <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon3"
+                    class="form-control bg-none border-0 " style="color: black;">
+                <div class="input-group-append border-0 ">
+                    <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search"
+                            style="color:black;"></i></button>
+                </div>
+            </div>
+        
+            <ul class="nav navbar-nav navbar-right" style="margin-right: 1em;">
+                <li style="margin-right: 15px"><a style="color: black" href="signup.html"><span class="fa fa-sign-in"></span> Sing in</a>
+                </li>
+                <li><a style="color: black" href="#"><span class="fa fa-user"></span> Login</a></li>
+            </ul>
+        
+        </nav>
+        
+        <!-- Menu Navbar -->
+        <div id="navbar" class="container-fluid">
+            <div class="container nav-fill w-100">
+                <nav class="navbar navbar-expand-md navbar-light" role="navigation">
+                    <button class="navbar-toggler"
+                        style="margin-left: 10em; background-color: rgb(167, 26, 26) ; border-width: 2px;"
+                        data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <span class="colmenu" style="color:white;">Menu</span>
+        
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav nav-fill w-100">
+                            <li class="nav-item">
+                                <a href="index.html" role="button" class="btn btn-default">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Technology</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Fashion</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Health & Beauty</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Motors</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Sports</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Home</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Deals</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a href="#" role="button" class="btn btn-default">Collectibles</a>
+                                    <button class="btn btn-default dropdown-toggle dropdown-toggle-split d-none d-md-block"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Item</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- Menu Navbar... -->
+<!-- DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG  -->
+<div id="resizeClass" style="text-align: center; "></div>
+
+<!-- DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG  -->
+
+    <div class="container" id="containerForm">
+        <br>
+
+        <div class="card bg-light" id="formClass" >
+            <article class="card-body mx-auto" style="max-width: 400px;"  >
+                <h4 class="card-title mt-3 text-center">Create Account</h4>
+                <br>
+                <!-- <p>
+                    <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
+                    <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via
+                        facebook</a>
+                </p> -->
+                <!-- <p class="divider-text">
+                    <span class="bg-light">OR</span>
+                </p> -->
+                <form class="singupForm">
+<div class="formLeft">
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="Username" type="text">
+                    </div> <!-- form-group// -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="First Name" type="text">
+                    </div>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="Surname" type="text">
+                    </div>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="Email address" type="email">
+                    </div> <!-- form-group// -->
+
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="Phone number" type="text">
+                    </div>
+                    
+                    <!-- Address -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-map-marker"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="Area Address" type="address">
+                    </div> <!-- Address... -->
+
+                    <!-- AFM -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-address-card"></i> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="AFM" type="afm">
+                    </div> <!-- AFM... -->
+                    
+
+                    <!-- <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                        </div>
+                        <select class="form-control">
+                            <option selected=""> Select job type</option>
+                            <option>Designer</option>
+                            <option>Manager</option>
+                            <option>Accaunting</option>
+                        </select>
+                    </div>  -->
+                    <!-- form-group end.// -->
+</div>
+<div class="formRight">                    
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input class="form-control" placeholder="Create password" type="password">
+                    </div> <!-- form-group// -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input class="form-control" placeholder="Repeat password" type="password">
+                    </div> <!-- form-group// -->
+<br><br>
+
+                    <div class="sumbitButton" id="sumbitButton">
+                        <div class="form-group" >
+                            <button type="submit" class="btn btn-primary btn-block"> Create Account </button>
+                        </div> <!-- form-group// -->
+                        <p class="text-center">Have an account? <a href="login.html">Log In</a> </p>
+                    </div>
+</div>
+                </form>
+            </article>
+        </div> <!-- card.// -->
+
+    </div>
+    <!--container end.//-->
+
+
+    <!-- Footer -->
+    <div class="d-flex flex-column">
+        <div id="page-content" ">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <h1 class="font-weight-light mt-4 text-white">Sticky Footer using Flexbox</h1>
+                        <p class="lead text-white-50">Use just two Bootstrap 4 utility classes and three custom CSS rules
+                            and you will have a flexbox enabled sticky footer for your website!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            <div class="container text-center">
+                <small>Copyright &copy; Your Website</small>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+            var x = 0;
+            $(document).ready(function () {
+                $(window).resize(function () {
+                    // $("#resizeClass").width();
+                    $("#resizeClass").text($(window).width());
+                    // $("#resizeClass").text($(body).width());
+
+                });
+            });
+    </script>
+</body>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Project_11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/javax.xml.bind.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/javax.xml.bind.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
